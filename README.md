@@ -8,7 +8,7 @@ windows without focus less prominent.  With many windows in a frame,
 this mode helps recognise which is the selected window by providing
 a non-intrusive but still noticeable visual indicator.
 
-[![Demo](screenshot.gif)](https://www.youtube.com/watch?v=3_XTUKnQRtM)
+[![Demo](screenshot.gif)](https://alugha.com/videos/f4032000-ff65-11ef-a760-6dd3657f8444)
 
 
 ## Installation
