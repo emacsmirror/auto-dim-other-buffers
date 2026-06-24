@@ -1,7 +1,7 @@
 ;;; auto-dim-other-buffers.el --- Makes windows without focus less prominent -*- lexical-binding: t -*-
 ;; Author: Michal Nazarewicz <mina86@mina86.com>
 ;; URL: https://github.com/mina86/auto-dim-other-buffers.el
-;; Version: 2.2.1
+;; Version: 2.2.2
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: faces
 
@@ -513,7 +513,7 @@ update display state of all affected buffers."
   :set (lambda (symbol value)
          (set-default symbol value)
          (when auto-dim-other-buffers-mode
-           (save-current-buffer*
+           (save-current-buffer
              (adob--initialize)))
          value))
 
